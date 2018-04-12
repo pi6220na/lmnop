@@ -29,13 +29,13 @@ class ShowResource(ModelResource):
     # venue = fields.ToOneField(VenueResource, 'Venue', null=False, blank=True)
 
 
-    # this works, most likely way to go   shows id in uri: 
-    # artist = fields.ToOneField(attribute="artist", to=ArtistResource)  # CharField worked # This works using ToOneField
-    # venue = fields.ToOneField(attribute="venue", to=VenueResource)
+    # this works, most likely way to go   shows id in uri:
+    artist = fields.ToOneField(attribute="artist", to=ArtistResource)  # CharField worked # This works using ToOneField
+    venue = fields.ToOneField(attribute="venue", to=VenueResource)
 
     # this works, shows translated foreign key value, not id
-    artist = fields.CharField(attribute="artist")
-    venue = fields.CharField(attribute="venue")
+    # artist = fields.CharField(attribute="artist")
+    # venue = fields.CharField(attribute="venue")
 
     class Meta:
         queryset = Show.objects.all()
