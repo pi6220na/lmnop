@@ -30,12 +30,15 @@ class ShowResource(ModelResource):
 
 
     # this works, most likely way to go   shows id in uri:
-    artist = fields.ToOneField(attribute="artist", to=ArtistResource)  # CharField worked # This works using ToOneField
-    venue = fields.ToOneField(attribute="venue", to=VenueResource)
+    # artist = fields.ToOneField(attribute="artist", to=ArtistResource)  # CharField worked # This works using ToOneField
+    # venue = fields.ToOneField(attribute="venue", to=VenueResource)
+
 
     # this works, shows translated foreign key value, not id
-    # artist = fields.CharField(attribute="artist")
-    # venue = fields.CharField(attribute="venue")
+    # For updating the main App DB, getting the actual foreign key value makes the most sense in terms of work
+    # to update the DB.
+    artist = fields.CharField(attribute="artist")
+    venue = fields.CharField(attribute="venue")
 
     class Meta:
         queryset = Show.objects.all()
