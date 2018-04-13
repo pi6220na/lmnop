@@ -9,10 +9,10 @@ This MCTC Capstone Project 5 is an API with the following functionality:
 * Listen for API calls from lmn project (via HTTP Restful call) to return requested data
 * Note: webscrapping will be done on a schedule performed by a cron job - due to cost on Heroku this may not happen - TBD
 * Access data on Heroku - append to Heroku URL:
-** /api/v1/artist/    gets all artist records
-** /api/v1/venue/     gets all venue records
-** /api/v1/show/      gets all show records
-** /api/v1/artist/nn/ where nn is the record ID of the desired record. Same idea applies for venue and show tables.
+  * /api/v1/artist/    gets all artist records
+  * /api/v1/venue/     gets all venue records
+  * /api/v1/show/      gets all show records
+  * /api/v1/artist/nn/ where nn is the record ID of the desired record. Same idea applies for venue and show tables.
 
 ### To install
 
