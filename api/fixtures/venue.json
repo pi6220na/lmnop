@@ -1,6 +1,6 @@
 [
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 1,
         "fields": {
             "name": "Xcel Energy Center",
@@ -9,7 +9,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 2,
         "fields": {
             "name": "Target Field",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 3,
         "fields": {
             "name": "Orpheum Theatre",
@@ -27,7 +27,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 4,
         "fields": {
             "name": "Canterbury Park",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 5,
         "fields": {
             "name": "Target Center",
@@ -45,7 +45,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 6,
         "fields": {
             "name": "Minnesota State Fair",
@@ -54,7 +54,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 7,
         "fields": {
             "name": "Mystic Lake Casino Hotel",
@@ -63,7 +63,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 8,
         "fields": {
             "name": "The Armory",
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 9,
         "fields": {
             "name": "US Bank Stadium",
@@ -81,7 +81,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 10,
         "fields": {
             "name": "State Theatre",
@@ -90,7 +90,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 11,
         "fields": {
             "name": "Varsity Theater",
@@ -99,7 +99,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 12,
         "fields": {
             "name": "Fine Line Music Cafe with special guest ",
@@ -108,7 +108,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 13,
         "fields": {
             "name": "First Avenue",
@@ -117,7 +117,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 14,
         "fields": {
             "name": "Palace Theatre St Paul",
@@ -126,7 +126,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 15,
         "fields": {
             "name": "Ordway Center for the Performing Arts",
@@ -135,7 +135,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 16,
         "fields": {
             "name": "Fine Line Music Cafe",
@@ -144,7 +144,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 17,
         "fields": {
             "name": "Music Hall Minneapolis",
@@ -153,7 +153,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 18,
         "fields": {
             "name": "7th Street Entry",
@@ -162,7 +162,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 19,
         "fields": {
             "name": "Turf Club",
@@ -171,7 +171,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 20,
         "fields": {
             "name": "The Pourhouse",
@@ -180,7 +180,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 21,
         "fields": {
             "name": "Minneapolis, Minnesota, United States ht",
@@ -189,7 +189,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 22,
         "fields": {
             "name": "MacPhail Center for Music Complimentary ",
@@ -198,7 +198,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 23,
         "fields": {
             "name": "Celtic Junction Arts Center The Traditio",
@@ -207,7 +207,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 24,
         "fields": {
             "name": "Skyway Theatre Skyway Theatre Presents T",
@@ -216,7 +216,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 25,
         "fields": {
             "name": "The Hook and Ladder Theater & Lounge Thi",
@@ -225,7 +225,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 26,
         "fields": {
             "name": "Burnsville Performing Arts ",
@@ -234,7 +234,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 27,
         "fields": {
             "name": "Amsterdam Bar and Hall",
@@ -243,7 +243,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 28,
         "fields": {
             "name": "The Garage Burnsville with Lydia, Souven",
@@ -252,7 +252,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 29,
         "fields": {
             "name": "Cinema Ballroom Samba",
@@ -261,7 +261,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 30,
         "fields": {
             "name": "The Women's Club of Minneapolis",
@@ -270,7 +270,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 31,
         "fields": {
             "name": "Loring Pasta Bar",
@@ -279,7 +279,7 @@
         }
     },
     {
-        "model": "lmn.venue",
+        "model": "api.venue",
         "pk": 32,
         "fields": {
             "name": "Myth",

@@ -1,6 +1,6 @@
 [
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 1,
         "fields": {
             "show_date": "2018-04-28 00:00:00",
@@ -9,7 +9,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 2,
         "fields": {
             "show_date": "2018-09-18 00:00:00",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 3,
         "fields": {
             "show_date": "2018-08-15 00:00:00",
@@ -27,7 +27,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 4,
         "fields": {
             "show_date": "2018-07-27 00:00:00",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 5,
         "fields": {
             "show_date": "2018-09-11 00:00:00",
@@ -45,7 +45,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 6,
         "fields": {
             "show_date": "2018-09-28 00:00:00",
@@ -54,7 +54,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 7,
         "fields": {
             "show_date": "2018-10-27 00:00:00",
@@ -63,7 +63,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 8,
         "fields": {
             "show_date": "2018-07-22 00:00:00",
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 9,
         "fields": {
             "show_date": "2018-09-04 00:00:00",
@@ -81,7 +81,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 10,
         "fields": {
             "show_date": "2018-08-24 00:00:00",
@@ -90,7 +90,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 11,
         "fields": {
             "show_date": "2018-08-28 00:00:00",
@@ -99,7 +99,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 12,
         "fields": {
             "show_date": "2018-09-16 00:00:00",
@@ -108,7 +108,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 13,
         "fields": {
             "show_date": "2018-04-21 00:00:00",
@@ -117,7 +117,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 14,
         "fields": {
             "show_date": "2018-05-05 00:00:00",
@@ -126,7 +126,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 15,
         "fields": {
             "show_date": "2018-04-13 00:00:00",
@@ -135,7 +135,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 16,
         "fields": {
             "show_date": "2018-10-06 00:00:00",
@@ -144,7 +144,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 17,
         "fields": {
             "show_date": "2018-07-16 00:00:00",
@@ -153,7 +153,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 18,
         "fields": {
             "show_date": "2018-07-21 00:00:00",
@@ -162,7 +162,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 19,
         "fields": {
             "show_date": "2018-08-10 00:00:00",
@@ -171,7 +171,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 20,
         "fields": {
             "show_date": "2018-09-12 00:00:00",
@@ -180,7 +180,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 21,
         "fields": {
             "show_date": "2018-10-18 00:00:00",
@@ -189,7 +189,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 22,
         "fields": {
             "show_date": "2018-09-29 00:00:00",
@@ -198,7 +198,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 23,
         "fields": {
             "show_date": "2018-07-05 00:00:00",
@@ -207,7 +207,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 24,
         "fields": {
             "show_date": "2018-09-01 00:00:00",
@@ -216,7 +216,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 25,
         "fields": {
             "show_date": "2018-04-13 00:00:00",
@@ -225,7 +225,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 26,
         "fields": {
             "show_date": "2018-04-12 00:00:00",
@@ -234,7 +234,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 27,
         "fields": {
             "show_date": "2018-04-23 00:00:00",
@@ -243,7 +243,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 28,
         "fields": {
             "show_date": "2018-04-27 00:00:00",
@@ -252,7 +252,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 29,
         "fields": {
             "show_date": "2018-07-07 00:00:00",
@@ -261,7 +261,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 30,
         "fields": {
             "show_date": "2018-07-11 00:00:00",
@@ -270,7 +270,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 31,
         "fields": {
             "show_date": "2018-09-20 00:00:00",
@@ -279,7 +279,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 32,
         "fields": {
             "show_date": "2018-09-23 00:00:00",
@@ -288,7 +288,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 33,
         "fields": {
             "show_date": "2019-02-22 00:00:00",
@@ -297,7 +297,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 34,
         "fields": {
             "show_date": "2018-08-30 00:00:00",
@@ -306,7 +306,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 35,
         "fields": {
             "show_date": "2018-09-07 00:00:00",
@@ -315,7 +315,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 36,
         "fields": {
             "show_date": "2018-09-07 00:00:00",
@@ -324,7 +324,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 37,
         "fields": {
             "show_date": "2018-11-02 00:00:00",
@@ -333,7 +333,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 38,
         "fields": {
             "show_date": "2019-02-21 00:00:00",
@@ -342,7 +342,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 39,
         "fields": {
             "show_date": "2018-07-26 00:00:00",
@@ -351,7 +351,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 40,
         "fields": {
             "show_date": "2018-09-06 00:00:00",
@@ -360,7 +360,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 41,
         "fields": {
             "show_date": "2018-08-29 00:00:00",
@@ -369,7 +369,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 42,
         "fields": {
             "show_date": "2018-08-08 00:00:00",
@@ -378,7 +378,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 43,
         "fields": {
             "show_date": "2018-05-01 00:00:00",
@@ -387,7 +387,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 44,
         "fields": {
             "show_date": "2018-04-20 00:00:00",
@@ -396,7 +396,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 45,
         "fields": {
             "show_date": "2018-04-21 00:00:00",
@@ -405,7 +405,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 46,
         "fields": {
             "show_date": "2018-04-21 00:00:00",
@@ -414,7 +414,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 47,
         "fields": {
             "show_date": "2018-04-08 00:00:00",
@@ -423,7 +423,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 48,
         "fields": {
             "show_date": "2018-04-17 00:00:00",
@@ -432,7 +432,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 49,
         "fields": {
             "show_date": "2018-04-07 00:00:00",
@@ -441,7 +441,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 50,
         "fields": {
             "show_date": "2018-08-31 00:00:00",
@@ -450,7 +450,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 51,
         "fields": {
             "show_date": "2018-04-12 00:00:00",
@@ -459,7 +459,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 52,
         "fields": {
             "show_date": "2018-04-07 00:00:00",
@@ -468,7 +468,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 53,
         "fields": {
             "show_date": "2018-04-13 00:00:00",
@@ -477,7 +477,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 54,
         "fields": {
             "show_date": "2018-04-06 00:00:00",
@@ -486,7 +486,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 55,
         "fields": {
             "show_date": "2018-08-08 00:00:00",
@@ -495,7 +495,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 56,
         "fields": {
             "show_date": "2018-08-14 00:00:00",
@@ -504,7 +504,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 57,
         "fields": {
             "show_date": "2018-04-14 00:00:00",
@@ -513,7 +513,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 58,
         "fields": {
             "show_date": "2018-04-07 00:00:00",
@@ -522,7 +522,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 59,
         "fields": {
             "show_date": "2018-08-06 00:00:00",
@@ -531,7 +531,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 60,
         "fields": {
             "show_date": "2018-10-02 00:00:00",
@@ -540,7 +540,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 61,
         "fields": {
             "show_date": "2018-04-19 00:00:00",
@@ -549,7 +549,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 62,
         "fields": {
             "show_date": "2018-08-19 00:00:00",
@@ -558,7 +558,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 63,
         "fields": {
             "show_date": "2018-07-29 00:00:00",
@@ -567,7 +567,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 64,
         "fields": {
             "show_date": "2018-04-13 00:00:00",
@@ -576,7 +576,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 65,
         "fields": {
             "show_date": "2018-04-06 00:00:00",
@@ -585,7 +585,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 66,
         "fields": {
             "show_date": "2018-04-07 00:00:00",
@@ -594,7 +594,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 67,
         "fields": {
             "show_date": "2018-04-12 00:00:00",
@@ -603,7 +603,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 68,
         "fields": {
             "show_date": "2018-04-14 00:00:00",
@@ -612,7 +612,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 69,
         "fields": {
             "show_date": "2018-04-07 00:00:00",
@@ -621,7 +621,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 70,
         "fields": {
             "show_date": "2018-04-07 00:00:00",
@@ -630,7 +630,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 71,
         "fields": {
             "show_date": "2018-10-20 00:00:00",
@@ -639,7 +639,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 72,
         "fields": {
             "show_date": "2018-08-31 00:00:00",
@@ -648,7 +648,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 73,
         "fields": {
             "show_date": "2018-04-06 00:00:00",
@@ -657,7 +657,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 74,
         "fields": {
             "show_date": "2018-06-30 00:00:00",
@@ -666,7 +666,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 75,
         "fields": {
             "show_date": "2018-05-10 00:00:00",
@@ -675,7 +675,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 76,
         "fields": {
             "show_date": "2018-04-08 00:00:00",
@@ -684,7 +684,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 77,
         "fields": {
             "show_date": "2018-04-12 00:00:00",
@@ -693,7 +693,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 78,
         "fields": {
             "show_date": "2018-04-15 00:00:00",
@@ -702,7 +702,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 79,
         "fields": {
             "show_date": "2018-04-17 00:00:00",
@@ -711,7 +711,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 80,
         "fields": {
             "show_date": "2018-04-09 00:00:00",
@@ -720,7 +720,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 81,
         "fields": {
             "show_date": "2018-04-19 00:00:00",
@@ -729,7 +729,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 82,
         "fields": {
             "show_date": "2018-04-11 00:00:00",
@@ -738,7 +738,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 83,
         "fields": {
             "show_date": "2018-04-12 00:00:00",
@@ -747,7 +747,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 84,
         "fields": {
             "show_date": "2018-04-06 00:00:00",
@@ -756,7 +756,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 85,
         "fields": {
             "show_date": "2018-04-12 00:00:00",
@@ -765,7 +765,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 86,
         "fields": {
             "show_date": "2018-04-14 00:00:00",
@@ -774,7 +774,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 87,
         "fields": {
             "show_date": "2018-04-16 00:00:00",
@@ -783,7 +783,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 88,
         "fields": {
             "show_date": "2018-04-12 00:00:00",
@@ -792,7 +792,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 89,
         "fields": {
             "show_date": "2018-04-09 00:00:00",
@@ -801,7 +801,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 90,
         "fields": {
             "show_date": "2018-04-12 00:00:00",
@@ -810,7 +810,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 91,
         "fields": {
             "show_date": "2018-04-09 00:00:00",
@@ -819,7 +819,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 92,
         "fields": {
             "show_date": "2018-04-27 00:00:00",
@@ -828,7 +828,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 93,
         "fields": {
             "show_date": "2018-04-29 00:00:00",
@@ -837,7 +837,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 94,
         "fields": {
             "show_date": "2018-04-26 00:00:00",
@@ -846,7 +846,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 95,
         "fields": {
             "show_date": "2018-04-22 00:00:00",
@@ -855,7 +855,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 96,
         "fields": {
             "show_date": "2018-04-30 00:00:00",
@@ -864,7 +864,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 97,
         "fields": {
             "show_date": "2018-04-21 00:00:00",
@@ -873,7 +873,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 98,
         "fields": {
             "show_date": "2018-05-01 00:00:00",
@@ -882,7 +882,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 99,
         "fields": {
             "show_date": "2018-05-04 00:00:00",
@@ -891,7 +891,7 @@
         }
     },
     {
-        "model": "lmn.show",
+        "model": "api.show",
         "pk": 100,
         "fields": {
             "show_date": "2018-05-04 00:00:00",
