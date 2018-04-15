@@ -1,12 +1,18 @@
+# Live Music Notes, Opinions and Pictures - API
+## lmnop is a spin-off application from https://github.com/LincT/lmn
 
+This MCTC Capstone Project 5 is an API with the following functionality:
 
-
-## This README is to be modified for LMNOP API...
-
-
-
-## Live Music Notes, Opinions, Photographs
-
+* Get local Artists, Venues, and Shows musical events data via a webscrapping technique
+* Create JSON files for each table type (e.g. artist, venue, shows (plus notes and users for development testing) and load into database)
+* Load JSON files into Database which will be accessed by the API to return records to the main lmn project App
+* Listen for API calls from lmn project (via HTTP Restful call) to return requested data
+* Note: webscrapping will be done on a schedule performed by a cron job - due to cost on Heroku this may not happen - TBD
+* Access data on Heroku - append to Heroku URL:
+  * /api/v1/artist/    gets all artist records
+  * /api/v1/venue/     gets all venue records
+  * /api/v1/show/      gets all show records
+  * /api/v1/artist/nn/ where nn is the record ID of the desired record. Same idea applies for venue and show tables.
 
 ### To install
 
@@ -14,7 +20,7 @@
 
 2. pip install -r requirements.txt
 
-3. python manage.py makemigrations lmn
+3. python manage.py makemigrations api         (note the 'api' at the end is important - it looks for the api preface in the JSON)
 
 4. python manage.py migrate
 
@@ -26,7 +32,6 @@ Site at
 
 ### Create superuser
 
-
 `python manage.py createsuperuser`
 
 enter username and password
@@ -35,57 +40,13 @@ will be able to use these to log into admin console at
 
 127.0.0.1:8000/admin
 
+# See Test Info Below
 
-### Run tests
+### For deployment on Heroku, the settings.py file DATABASE section has been modified changing the name, user, and host to Heroku values. Comment out the Heroku lines and uncomment the local use lines to run on local machine.
 
-To run tests  (some currently fail - see Issues)
+### Or
 
-```
-python manage.py test lmn.tests
-```
-
-Or just some of the tests,
-
-```
-python manage.py test lmn.tests.test_views
-python manage.py test lmn.tests.test_views.TestUserAuthentication
-python manage.py test lmn.tests.test_views.TestUserAuthentication.test_user_registration_logs_user_in
-```
-
-
-### Functional Tests with Selenium
-
-Install (upgrade to the latest version if you already have it) Firefox browser. It works best for automated functional testing with Selenium.
-
-Make sure you have the latest version of Firefox, and the most recent geckodriver, and latest Selenium.
-
-geckodriver needs to be in path or you need to tell Selenium where it is. Pick an approach: http://stackoverflow.com/questions/40208051/selenium-using-python-geckodriver-executable-needs-to-be-in-path
-
-If your DB is at GCP, your tests might time out, and you might need to use longer waits http://selenium-python.readthedocs.io/waits.html
-
-Start your server with `python manage.py runserver` and then
-
-```
-python manage.py test lmn.tests.functional_tests
-```
-
-Or select tests, for example,
-```
-python manage.py test lmn.tests.functional_tests.HomePageTest
-python manage.py test lmn.tests.functional_tests.BrowseArtists.test_searching_artists
-```
-
-
-### Test coverage
-
-From directory with manage.py in it,
-
-```
-coverage run --source='.' manage.py test lmn.tests
-
-coverage report
-```
-
+### Comment out Postgres DB and uncomment SQLite DB - much more expedient way to development test
 
 ### Optional, if wanting to install and use with local postgresql
 
@@ -109,9 +70,8 @@ create user lmnop with password 'password_here';
 
 create a database lmnop
 
-```
 create database owner lmnop;
-```
+
 
 Various postgres shell commands
 connect to lmnop database
@@ -141,3 +101,17 @@ sudo ln -s /Library/PosgreSQL/9.5/lib/libcrypto.1.0.0.dylib /usr/local/lib`
 
 And this when you start a new shell; or set it permanently in .bash_profile
 `export DYLD_FALLBACK_LIBRARY_PATH=/Library/PostgreSQL/9.5/lib:$DYLD_LIBRARY_PATH`
+
+
+### Run tests
+
+TBD
+
+### Functional Tests with Selenium
+
+TBD
+
+### Test coverage
+
+TBD
+
