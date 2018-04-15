@@ -39,11 +39,11 @@ def main():
     # Note that getting data from the web and scrapping the pages is extremely slow
     # getting and scrapping 100 shows takes several minutes
     # uncomment this line and comment out the following call to getTestData() to run against the web site.
-    raw_data_list = getMPLS()
+    #raw_data_list = getMPLS()
 
     # Test list used to save time during development of this program - list built from live data
     # comment out following line and uncomment above function call to run web scrapping for live data
-    #raw_data_list = getTestData()
+    raw_data_list = getTestData()
 
     # for line in raw_data_list:
     #     print(line)
@@ -194,7 +194,7 @@ def buildJSON():
     for item in artist_list:
         if afirst_time:
             num += 1
-            artist_json.append({"model":"lmn.artist", "pk":num, "fields": {"name":item}})
+            artist_json.append({"model":"api.artist", "pk":num, "fields": {"name":item}})
             afirst_time = False
         else:
             afirst_time = False
@@ -207,7 +207,7 @@ def buildJSON():
                     found = False
             if not found:
                 num += 1
-                artist_json.append({"model": "lmn.artist", "pk": num, "fields": {"name": item}})
+                artist_json.append({"model": "api.artist", "pk": num, "fields": {"name": item}})
 
     # build venue json list
     num = 0
@@ -217,7 +217,7 @@ def buildJSON():
         if first_time:
             num = 1
             venue_json.append(
-                {"model": "lmn.venue", "pk": num, "fields": {"name": item[0], "city": item[1], "state": item[2]}})
+                {"model": "api.venue", "pk": num, "fields": {"name": item[0], "city": item[1], "state": item[2]}})
             first_time = False
         else:
             found = False
@@ -233,7 +233,7 @@ def buildJSON():
 
             if not found:
                 num += 1
-                venue_json.append({"model":"lmn.venue", "pk":num, "fields": {"name": item[0], "city": item[1], "state": item[2]}})
+                venue_json.append({"model":"api.venue", "pk":num, "fields": {"name": item[0], "city": item[1], "state": item[2]}})
 
     # build show json list
     num = 0
@@ -243,10 +243,16 @@ def buildJSON():
         venue_key = getVenue(venue_list[num-1][0])
         artist_key = getArtist(artist_list[num-1])
         #print("returned artist key number: " + str(artist_key))
-        datetime_object = datetime.strptime(item, '%b %d, %Y')
+        #day_string = datetime.strptime(item, '%b %d, %Y')
+
+        d = datetime.strptime(item, '%b %d, %Y')
+        day_string = d.strftime('%Y-%m-%d')
+
+        print(day_string)
+        print(item)
 
         if venue_key > 0 and artist_key > 0:
-            show_json.append({"model":"lmn.show", "pk":num, "fields": {"show_date": str(datetime_object), "artist": artist_key, "venue": venue_key }})
+            show_json.append({"model":"api.show", "pk":num, "fields": {"show_date": str(day_string), "artist": artist_key, "venue": venue_key }})
         else:
             print("error: venue or artist for show was not found")
 
@@ -338,7 +344,7 @@ def buildNotes():
             myDate = randomdate(RANDYEAR, RANDMONTH)
             #print(myDate)
             nText = sentences_list.pop() + sentences_list.pop() + sentences_list.pop() + sentences_list.pop()
-            note_json.append({"model": "lmn.note", "pk": recNum, "fields": {"show": num, "user": rand, "title": pop1, "text": nText, "posted_date": str(myDate)}})
+            note_json.append({"model": "api.note", "pk": recNum, "fields": {"show": num, "user": rand, "title": pop1, "text": nText, "posted_date": str(myDate)}})
 
     # for item in note_json:
     #     print(item)
