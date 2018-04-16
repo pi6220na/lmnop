@@ -81,13 +81,14 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        #'NAME': 'lmnop',
-        'NAME': 'ddt0ndof55lckn',
-        #'USER' : 'lmnop',
-        'USER' : 'sbqfzsuizysjlj',
-        'PASSWORD' : os.environ['LMNOP_DB_PW'],
-        #'HOST' : 'localhost',
-        'HOST' : 'ec2-54-163-240-54.compute-1.amazonaws.com',
+        'NAME': 'lmnop',
+        #'NAME': 'ddt0ndof55lckn',
+        'USER' : 'justin',
+        #'USER' : 'sbqfzsuizysjlj',
+        #'PASSWORD' : os.environ['LMNOP_DB_PW'],
+        'PASSWORD' : 'lol',
+        'HOST' : 'localhost',
+        #'HOST' : 'ec2-54-163-240-54.compute-1.amazonaws.com',
         'PORT' : '5432',
     }
 }
